@@ -1,0 +1,30 @@
+#container #p1 {
+    background-color: red;
+    position: absolute;
+    top: 200px;
+    left: -20px;
+}
+
+#container #p2{
+    background-color: green;
+}
+
+#container #p3{
+    position: fixed;
+    top: 0;
+    background-color: brown;
+    margin: 0;
+}
+#sticky {
+    position: sticky;
+    background-color: darkorange;
+    top: 40px;
+    bottom: 200px;
+}
+#container {
+    position: relative;
+    background-color: aqua;
+    height: 200px;
+    top 50px;
+    left: 50px;
+}

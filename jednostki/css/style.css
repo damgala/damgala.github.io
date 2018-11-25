@@ -1,0 +1,25 @@
+div {
+    height: 30px;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+#pixels {
+    width: 300px;
+}
+#em {
+    width: 10em;
+}
+#percent {
+    width: 50%;
+}
+#vh {
+    width: 40vh;
+}
+#vw {
+    width: 40vw;
+}
+#color {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 0, 0.5);
+}

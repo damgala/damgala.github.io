@@ -1,0 +1,11 @@
+#first::before {
+    content:'$';
+    color: red;
+    margin-right: 10px;
+}
+
+#second::after {
+    content:'to jest after';
+    color: blue;
+    margin-left: 10px;
+}

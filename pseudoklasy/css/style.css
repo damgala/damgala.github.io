@@ -1,0 +1,29 @@
+#button:hover {
+    background-color: orange;
+}
+
+#okno:focus {
+    color: crimson;
+}
+
+#button:active {
+    background-color: red;
+}
+
+ul > li:first-child {
+    color: green;
+}
+
+ul > li:last-child {
+    color: darkblue;
+}
+
+ul > li:nth-child(even) {
+    color: red;
+    
+}
+
+ul > li:nth-child(3n+2) {
+    color: darkolivegreen;
+    
+}

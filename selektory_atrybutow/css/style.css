@@ -1,0 +1,19 @@
+[title] {
+    color: red;
+}
+
+[title="Main page"] {
+    color: aqua;
+    
+}
+[title~='skills'] {
+    color: darkred;
+}
+
+[title*='a']{
+    background-color: brown;
+}
+
+[title^='Conta'] {
+    background-color: darkmagenta;
+}

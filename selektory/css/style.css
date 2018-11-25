@@ -1,0 +1,24 @@
+p {
+    color: firebrick;
+}
+
+.text {
+    color: blue;
+}
+
+p.text {
+    color: aqua
+}
+
+div.text {
+    background-color: red;
+}
+
+ul > li {
+    color: green;
+}
+
+ul > li#third ~ li {
+    color: red;
+}
+div::before

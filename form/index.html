@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz zapisu na szkolenie</title>
+</head>
+
+<body>
+    <h1>Formularz zapisu na szkolenie</h1>
+
+    <form action="https://formspree.io/damgala@gmail.com" method="POST"><br>
+
+        <label for="name">Imię:</label>
+        <input type="text" name="name" id="name"> <br>
+
+       
+        <label for="lastname">Nazwisko:</label>
+        <input type="text" name="lastname" id="lastname"> <br>
+
+        <label for="email">e-mail:</label>
+        <input type="email" name="email" id="email"> <br>
+
+        <label for="phone">telefon:</label>
+        <input type="number" name="phone" id="phone"> <br>
+
+        <label for="miasto">Wybierz miasto:</label>
+        <select name="miasto" id="miasto">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select><br>
+        <p>zaznacz płeć:
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Mężczyzna</label>
+            <input type="radio" name="gender" value="female" id="female"><label for="female">Kobieta</label></p>
+        <textarea name="message" cols="30" rows="10" placeholder="tu wpisz treść wiadomości"></textarea><br>
+        <input type="submit" value="wyślij">
+    </form>
+
+</body>
+
+</html>

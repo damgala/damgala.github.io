@@ -1,48 +1,67 @@
 .wrapper {
-  display: flex;  
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
+    /*to jest kontener główny, wktórym umieszczone są header footer main aside-1 acide-2*/
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .wrapper > * {
-  padding: 10px;
-  flex: 1 100%;
+    /*  " > * " wyznacza właściwości dla wszystkich elementów potomnych klasy wrapper */
+    padding: 10px;
+    flex: 1 100%;
 }
 
 .header {
-  background: tomato;
+    background: #ccccff;
 }
 
 .footer {
-  background: lightgreen;
+    background: #9999ff;
 }
 
 .main {
-  text-align: left;
-  background: deepskyblue;
+    text-align: left;
+    background: #9999cc;
 }
 
 .aside-1 {
-  background: gold;
+    background: #6666cc;
 }
 
 .aside-2 {
-  background: hotpink;
+    background: #6666ff;
 }
 
+
 @media all and (min-width: 600px) {
-  .aside { flex: 1 0 0; }
+    .aside {
+        flex: 1 0 0;
+    }
 }
 
 @media all and (min-width: 800px) {
-  .main    { flex: 3 0px; }
-  .aside-1 { order: 1; } 
-  .main    { order: 2; }
-  .aside-2 { order: 3; }
-  .footer  { order: 4; }
+    .main {
+        flex: 3 0px;
+    }
+
+    .aside-1 {
+        order: 1;
+    }
+
+    .main {
+        order: 2;
+    }
+
+    .aside-2 {
+        order: 3;
+    }
+
+    .footer {
+        order: 4;
+    }
 }
 
 body {
-  padding: 2em; 
+    padding: 2em;
 }
